@@ -1,0 +1,627 @@
+body{
+    background-color: #121C25;
+    color: white;
+    margin: 0;
+}
+
+
+.header{
+    background-color: #121C25;
+    display: flex;
+    height: 90px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.header ul{
+    display: flex;
+    height: inherit;
+    margin: 0px;
+    padding: 0;
+    
+}
+.header ul li{
+    height: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header a{
+    display: flex;
+    text-decoration:none;
+    color: inherit;
+    height: inherit;
+    padding: 0px 10px;
+    letter-spacing: 2px;
+    
+}
+
+.header figure{
+    margin: 0;
+}
+
+.hero{
+    background-color: #121C25;
+    display: flex;
+    align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    height: auto;
+
+}
+
+
+
+.hero-image{
+    object-fit: cover;
+    width: 45%;
+  }
+
+.hero h1{
+    padding: 10px;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.hero strong{
+    color: #FFC524;
+}
+
+.portfolio{
+    background-color: #F2F5EA;
+    /* padding: 20px 20px 20px 20px; */
+    padding-bottom: 20px;
+}
+
+.portfolio-title{
+    margin: 0;
+    /* color: #417b5a; */
+    color: #2e3355;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.project{
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.project-details{
+    width: 500px;
+    padding-left: 0px 25px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.project-title{
+    font-size: 45px;
+    text-align: center;
+    color: #2e3355;
+    margin: 10px;
+
+}
+.project-description{
+    font-size: 30;
+}
+
+
+.certificate-list{
+    background-color: #F2F5EA;
+    /* padding: 0px 20px 20px 20px; */
+    display: block;
+    padding-bottom: 20px;
+}
+
+.autodesk-esp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.certificate{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: space-between;
+    /* margin-right: 5%; */
+    /* padding-right: 30px; */
+    padding: 20px;
+    width: 55%;
+    height: 90%;
+}
+
+.certificate-title{
+    text-align: center;
+}
+
+.certificate-url{
+    display: block;
+    color: #056fff;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    width: 130px;
+}
+.certificate-detail{
+    width: 350px;
+}
+
+
+.certificate-imageContainer{
+    margin: 0;
+    padding: 0;
+    width: 48%;
+
+}
+
+.certificate-imageContainer img{
+    width: 100%;
+}
+.certificate-imageContainer img{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.autodesk-subCourses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+}
+
+
+
+.subcourse{
+    display: block;
+    /* flex-direction: column; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    /* margin-left: 20px; */
+    padding: 10px;
+    font-size: 12px;
+    /* width: 100%; */
+    /* height: 50%  ; */
+}
+
+.subcourse a{
+    text-align: center;
+    color: #056fff;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px 10px 10px 10px;
+    width: 45px;
+    font-weight: normal;
+}
+/* .certificate-url-course{
+    display: block;
+    color: #056fff;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 10px 10px 10px;
+    width: 45px;
+    font-weight: normal;
+} */
+
+.subcourse-title{
+    padding: 10;
+    margin: 10px 0px;
+}
+
+
+
+
+.general-certificate{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: space-between;
+    padding-right: 30px;
+    width: auto;
+}
+
+.general-certificate-detail{
+    width: 800px;
+}
+
+.general-certificate-url{
+    display: block;
+    color: #056fff;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    width: 130px;
+}
+.footer{
+    background-color: #056fff;
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0px 10px;
+
+}
+
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+.social-link.youtube{
+    background-image: url('../images/youtube.png');
+}
+
+
+.form-email input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 20px 10px 30px;
+    background-image: url('../images/envelope.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button{
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    /* margin-top: 10px; */
+    margin: 10px auto;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;    
+}
+
+
+.container{
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    /* width: 100%; */
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+
+@media screen and (max-width: 1023px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+        flex-wrap: wrap;
+    }
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+      }
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        display: block;
+        height: auto;
+
+    }
+
+    .header ul{
+        display: block;
+    }
+
+    .header a{
+        justify-content: center;
+    }
+
+    .logo-container{
+        text-align: center;
+    }
+
+    .header ul li{
+        height: 35px;
+    }
+
+    .project{
+        display: block;
+    }
+
+    .project-imageContainer{
+        width: auto;
+        text-align: center;
+        margin: 0;
+    }
+    .project-details{
+        width: auto;
+        font-size: 16px;
+        padding: 0 0.8em;
+    }
+
+    .project-title{
+        font-size: 2em;
+        margin-bottom: .5em;
+    }
+
+    .project-info, .project-description{
+        font-size: 1em;
+        margin: .4em 0;
+    }
+
+    .autodesk-esp{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+
+
+    .certificate{
+        width: auto;
+    }
+    .autodesk-subCourses{
+        display: block;
+        width: auto;
+    }
+
+    .subcourse{
+        display: flex;
+        margin: 1em 0; 
+        justify-content: space-between;
+        padding: 15px;
+
+    }
+
+    .subcourse a{
+        margin: 0;
+    }
+    .general-certificate-description{
+        display: none;
+    }
+
+    .general-certificate-detail{
+        width: auto;
+    }
+    
+    .certificate-url{
+        width: auto;
+        margin: 0;
+    }
+    
+    .general-certificate-imageContainer{
+        margin: 0;
+    }
+
+    .general-certificate{
+        padding-right: 0;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .general-certificate-url{
+        margin: 15px 0;
+    }
+
+
+    .social-link{
+        width: 35px;
+        height: 35px;
+        background-size: 35px 35px;
+        background-repeat: no-repeat;
+    }
+
+    .hero h1{
+        font-size: 38px;
+    }
+
+    .portfolio-title{
+        font-size: 35px;
+    }
+
+    /* .certificate{
+        display: block;
+    }
+
+    .certificate-imageContainer{
+        width: auto;
+        text-align: center;
+    } */
+
+    /* .autodesk-esp{
+        flex-direction: column;
+    } */
+    
+    /* .event{
+        width: auto;
+        flex-shrink: initial;
+    
+      }
+    
+    .event img{
+        width: 100%;
+    }
+    
+    .event-detail{
+        margin-top: -2em .5em .5em .5em;
+    }
+    .contact{
+        height: auto;
+    } */
+
+}
+
+@media screen and (max-width: 480px){
+    html{
+        width: 100vw;
+    }
+    
+    .project-details{
+        width: auto;
+        font-size: 12px;
+        padding: 0 0.5em;
+    }
+
+    .contact{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    .hero{
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+
+    }
+
+    .hero h1{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .portfolio-title{
+        font-size: 30px;
+    }
+    
+    .certificate-description{
+        display: none;
+    }
+
+    .subcourse-title{
+        margin-right: 10px;
+    }
+    .general-certificate-detail{
+        margin: 0 10px;
+        font-size: 12px;
+        width: 50%;
+    }
+
+    .general-certificate-imageContainer img{
+        width: 100%;
+    }
+    .general-certificate-imageContainer{
+        width: 25%;
+    }
+
+    .general-certificate-url {
+        display: block;
+        width: 25%;
+        font-size: 12px;
+    }
+    .general-certificate a{
+        width: 25%;
+    }
+    .logo-container{
+        width: 100%;
+    }
+    .logo-container img{
+        width: 100%;
+    }
+
+    .hero {
+        padding: 1.3em 0;
+      }
+
+    .hero h1{
+        font-size: 24px;
+        margin-top: 0;
+    }
+}
